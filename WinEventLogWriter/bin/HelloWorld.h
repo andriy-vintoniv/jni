@@ -9,11 +9,11 @@ extern "C" {
 #endif
 /*
  * Class:     HelloWorld
- * Method:    print
- * Signature: ()V
+ * Method:    reportEvent
+ * Signature: (Ljava/lang/String;)V
  */
-JNIEXPORT void JNICALL Java_HelloWorld_print
-  (JNIEnv *, jobject);
+JNIEXPORT void JNICALL Java_HelloWorld_reportEvent
+  (JNIEnv *, jobject, jstring);
 
 #ifdef __cplusplus
 }

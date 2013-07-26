@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3EB94590-F61C-477E-8667-02DE97C26DDB}</ProjectGuid>
+    <ProjectGuid>{C0EB92E0-B89E-4697-B412-2AC97BE8D205}</ProjectGuid>
     <RootNamespace>CLibHelloWorld</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -43,7 +43,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Java\jdk1.6.0_29\include;C:\Program Files %28x86%29\Java\jdk1.6.0_29\include\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\Java\jdk1.6.0_07\include;C:\dev\Java\jdk1.6.0_07\include\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -64,13 +64,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\..\WinEventLogWriter\bin\HelloWorld.h" />
-    <ClInclude Include="provider.h" />
+    <ClInclude Include="..\..\WinEventLogWriter\bin\MyEventProvider.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\WinEventLogWriter\bin\CLibHelloWorld.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\MyEventProvider.cpp" />
+    <ClCompile Include="..\..\WinEventLogWriter\bin\CLibHelloWorld.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

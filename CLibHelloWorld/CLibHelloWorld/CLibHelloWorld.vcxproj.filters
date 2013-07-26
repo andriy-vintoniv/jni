@@ -18,18 +18,13 @@
     <ClInclude Include="..\..\WinEventLogWriter\bin\HelloWorld.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="provider.h">
+    <ClInclude Include="..\..\WinEventLogWriter\bin\MyEventProvider.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\WinEventLogWriter\bin\CLibHelloWorld.c">
+    <ClCompile Include="..\..\WinEventLogWriter\bin\CLibHelloWorld.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\MyEventProvider.cpp">
-      <Filter>Source Files</Filter>
-    </None>
   </ItemGroup>
 </Project>
